@@ -2,8 +2,8 @@ import { Controller, Get } from '@nestjs/common';
 
 @Controller('movies')
 export class MoviesController {
-  @Get('/as')
+  @Get('/')
   getAll() {
-    return 'This will return movies222';
+    return 'This will return movies';
   }
 }
